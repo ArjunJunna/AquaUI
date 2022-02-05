@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../../style.css" />
+    <title>Alert</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="left-nav">
+          <a href="#">Aqua UI</a>
+        </div>
+        <ul class="right-nav">
+          <li><a href="#">Documentation</a></li>
+          <li><a href="#">Examples</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <h1>Alert</h1>
+        <h4>
+          An alert is used to attract user's attention by displaying a short
+          message to a user without interrupting the user's flow.
+        </h4>
+        <h3>Below is an example for Alert without close button.</h3>
+        <section class="alert-component">
+          <div class="alert">
+            <div class="alert__btn btn-danger">
+              <span
+                ><i class="fas fa-exclamation-triangle alert-icon"></i>
+                <strong>Alert</strong> - This is danger bar</span
+              >
+            </div>
+            <div class="alert__btn btn-warning">
+              <span>
+                <i class="fas fa-exclamation-triangle alert-icon"></i
+                ><strong>Alert</strong> - This is warning bar</span
+              >
+            </div>
+            <div class="alert__btn btn-success">
+              <span>
+                <i class="far fa-check-circle alert-icon"></i
+                ><strong>Alert</strong> - This is success bar</span
+              >
+            </div>
+          </div>
+        </section>
+        <div class="code-snippet">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=htmlmixed&width=593&ds=true&dsyoff=53px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=11.5px&lh=139%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert__btn%2520btn-danger%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2520alert-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cstrong%253EAlert%253C%252Fstrong%253E%2520-%2520This%2520is%2520danger%2520bar%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert__btn%2520btn-warning%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2520alert-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cstrong%253EAlert%253C%252Fstrong%253E%2520-%2520This%2520is%2520warning%2520bar%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert__btn%2520btn-success%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-check-circle%2520alert-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Cstrong%253EAlert%253C%252Fstrong%253E%2520-%2520This%2520is%2520success%2520bar%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+
+        <h3>Below is an example for Alert with close button.</h3>
+        <section class="alert-component">
+          <div class="alert">
+            <div class="alert__btn btn-danger">
+              <span
+                ><i class="fas fa-exclamation-triangle alert-icon"></i>
+                <strong>Alert</strong> - This is danger bar<i
+                  class="fas fa-times dismiss-icon"
+                ></i
+              ></span>
+            </div>
+            <div class="alert__btn btn-warning">
+              <span>
+                <i class="fas fa-exclamation-triangle alert-icon"></i
+                ><strong>Alert</strong> - This is warning bar<i
+                  class="fas fa-times dismiss-icon"
+                ></i
+              ></span>
+            </div>
+            <div class="alert__btn btn-success">
+              <span>
+                <i class="far fa-check-circle alert-icon"></i
+                ><strong>Alert</strong> - This is success bar<i
+                  class="fas fa-times dismiss-icon"
+                ></i
+              ></span>
+            </div>
+          </div>
+        </section>
+        <div class="code-snippet">
+          <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=htmlmixed&width=593&ds=true&dsyoff=53px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=11.5px&lh=139%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert__btn%2520btn-danger%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2520alert-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EAlert%253C%252Fstrong%253E%2520-%2520This%2520is%2520danger%2520bar%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fas%2520fa-times%2520dismiss-icon%2522%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Fi%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert__btn%2520btn-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2520alert-icon%2522%253E%253C%252Fi%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cstrong%253EAlert%253C%252Fstrong%253E%2520-%2520This%2520is%2520warning%2520bar%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fas%2520fa-times%2520dismiss-icon%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Fi%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert__btn%2520btn-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-check-circle%2520alert-icon%2522%253E%253C%252Fi%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cstrong%253EAlert%253C%252Fstrong%253E%2520-%2520This%2520is%2520success%2520bar%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fas%2520fa-times%2520dismiss-icon%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Fi%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+          
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+        </div>
+        
+      </main>
+      <div class="sidebar">
+        <!-- Get Started List Start -->
+        <div>
+          <div class="list-topic">
+            <a href="#"> Get Started </a>
+          </div>
+          <ul class="list-subtopic">
+            <li>
+              <a href="#"> Introduction </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Components List start -->
+        <div>
+          <div class="list-topic">
+            <a href="#">Components</a>
+          </div>
+          <ul class="list-subtopic">
+            <li>
+              <a href="/components/avatar/avatar.html"> Avatar </a>
+            </li>
+            <li>
+              <a href="/components/alert/alert.html"> Alert </a>
+            </li>
+            <li>
+              <a href="#"> Badge </a>
+            </li>
+            <li>
+              <a href="#"> Button </a>
+            </li>
+            <li>
+              <a href="#"> Card </a>
+            </li>
+            <li>
+              <a href="#"> Image </a>
+            </li>
+            <li>
+              <a href="#"> Input </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <li><a href="/components/avatar/avatar.html">< Prev Page</a></li>
+        <li><a href="#">Next Page ></a></li>
+      </footer>
+    </div>
+  </body>
+</html>
