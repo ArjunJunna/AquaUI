@@ -1,7 +1,4 @@
 
-:root{
-  --border-color:rgb(0, 0, 0);
-}
 
 .component {
   border: 1px solid var(--border-color);
