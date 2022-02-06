@@ -32,7 +32,14 @@
 
 .btn-outline {
   border: 2.5px solid var(--btn-outline-color);
+  color: var(--complementary-color);
 }
+
+.btn-outline:hover{
+  background-color: var(--primary-bg-color);
+  color: var(--btn-color);
+}
+
 .btn--link {
   text-decoration: none;
   font-size: 1.2rem;
