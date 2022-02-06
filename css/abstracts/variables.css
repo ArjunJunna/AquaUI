@@ -15,5 +15,14 @@
   --btn-color: rgb(255, 255, 255);
   --btn-bg-hover: #00607391;
   --btn-outline-color: rgb(156, 162, 168);
+  --primary-color: rgb(255, 255, 255);
+  --secondary-color: rgb(132, 132, 138);
+  --complementary-color: rgb(0, 0, 0);
+  --background-color: rgb(211, 223, 226);
+  --card-bg-color: #f0f0f0c5;
+  --badge-bg-color: rgba(171, 171, 201, 0.493);
+  --price-tag-color: rgb(109, 108, 108);
+  --btn-bg-color: rgb(203, 203, 206);
+  --shadow-color: rgb(177, 175, 175);
 }
 
