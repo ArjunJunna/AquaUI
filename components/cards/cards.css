@@ -22,7 +22,6 @@
   display: flex;
   flex-basis: 25rem;
   position: relative;
-  /* height: 70%; */
 }
 .card-badge {
   position: absolute;
@@ -50,8 +49,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  /* height:16%; */
 }
 
 .card__details {
@@ -73,7 +70,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 14%; */
 }
 .card__button {
   padding: 1rem 1.6rem;
@@ -130,9 +126,6 @@
   position: absolute;
   top: 25%;
 }
-
-/*************************************/
-/*Horizontal card*/
 
 .card-container-hz {
   height: 16rem;
