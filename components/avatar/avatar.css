@@ -32,16 +32,5 @@
   width: 3rem;
 }
 
-.code-snippet {
-  padding: 1rem 0;
-  margin: 2rem 0;
-  overflow: auto;
-}
 
-.code-snippet iframe{
-  width: 965px;
-  height: 441px;
-  border: 0;
-  transform: scale(1);
-  overflow: hidden;
-}
+
