@@ -6,4 +6,14 @@
   --danger-color: #F50F00;
   --warning-color: rgb(230, 217, 198);
   --success-color: rgb(31, 187, 44);
+  --badge-bg-color: rgb(255, 0, 0);
+  --badge-color: rgb(255, 255, 255);
+  --btn-bg-color: rgb(190, 56, 173);
+  --icon-bg-color: rgb(184, 184, 184);
+  --icon-bg-active-color: rgb(105, 105, 105);
+  --primary-bg-color: #006377;
+  --btn-color: rgb(255, 255, 255);
+  --btn-bg-hover: #00607391;
+  --btn-outline-color: rgb(156, 162, 168);
 }
+
