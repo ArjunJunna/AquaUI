@@ -39,18 +39,3 @@
   background-color: var(--success-bg-color);
   color: var(--success-color);
 }
-
-.code-snippet {
-  padding: 1rem 0;
-  margin: 2rem 0;
-  overflow: auto;
-}
-
-.code-snippet iframe {
-  width: 90%;
-  height: 300px;
-  border: 0;
-  transform: scale(1);
-  overflow: hidden;
-  margin: 0 auto;
-}

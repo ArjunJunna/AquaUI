@@ -7,5 +7,6 @@
 @import '/css/layout/sidebar.css';
 @import '/css/layout/grid.css';
 @import '/css/pages/documentation.css';
+@import '/css/prism/prism.css';
 @import '/css/utilities.css';
 @import '/components/components.css';
