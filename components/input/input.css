@@ -9,6 +9,7 @@
   height: 4rem;
   padding: 0.2em;
   border-radius: 0.5rem;
+  font-size: 1.6rem;
 }
 
 .input-label {
@@ -37,5 +38,8 @@
   min-height: 20rem;
   min-width: 30rem;
   font-size: 1.6rem;
-  background-color: #eaeaf0;
+  border: 2px solid var(--border-color);
+  background-color: var(--textbox-bg-color);
+  border-radius: 0.5rem;
+  padding: 0.2em;
 }
