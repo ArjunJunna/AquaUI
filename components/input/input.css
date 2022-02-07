@@ -4,14 +4,14 @@
   width: 50%;
 }
 
-.input > input {
+.input-style {
   width: 25rem;
   height: 4rem;
   padding: 0.2em;
   border-radius: 0.5rem;
 }
 
-.input > div {
+.input-label {
   position: absolute;
   top: -0.6em;
   font-size: 0.88rem;
@@ -21,15 +21,15 @@
   padding: 0.1rem;
 }
 
-.input > input.input-error {
+.input-error {
   border: 2px solid var(--input-bd-error);
 }
 
-.input > input.input-warning {
+.input-warning {
   border: 2px solid #ffae22;
 }
 
-.input > input.input-success {
+.input-success {
   border: 2px solid #059669;
 }
 
