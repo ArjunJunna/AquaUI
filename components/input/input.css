@@ -27,11 +27,11 @@
 }
 
 .input-warning {
-  border: 2px solid #ffae22;
+  border: 2px solid var(--input-bd-warning);
 }
 
 .input-success {
-  border: 2px solid #059669;
+  border: 2px solid var(--input-bd-success);
 }
 
 .input-textarea {
