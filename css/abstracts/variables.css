@@ -3,7 +3,7 @@
   --danger-bg-color: #b80c00;
   --warning-bg-color: rgb(233, 115, 18);
   --success-bg-color: rgba(144, 221, 99, 0.671);
-  --danger-color: #F50F00;
+  --danger-color: #f50f00;
   --warning-color: rgb(230, 217, 198);
   --success-color: rgb(31, 187, 44);
   --badge-bg-color: rgb(255, 0, 0);
@@ -24,5 +24,8 @@
   --price-tag-color: rgb(109, 108, 108);
   --btn-bg-color: rgb(203, 203, 206);
   --shadow-color: rgb(177, 175, 175);
+  --input-bd-error: #e63030;
+  --input-bd-warning: #ffae22;
+  --input-bd-success: #059669;
+  --textbox-bg-color: rgb(231, 222, 222);
 }
-
