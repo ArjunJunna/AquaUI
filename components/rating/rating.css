@@ -30,7 +30,7 @@
   display: inline-block;
   top: 0;
   left: 0;
-  color: rgb(0, 0, 0);
+  color: var(--complementary-color);
 }
 .rating-wrapper label:after {
   content: '\2605';
@@ -39,7 +39,7 @@
   display: inline-block;
   top: 0;
   left: 0;
-  color: yellow;
+  color: var(--rating-star-color);
   opacity: 0;
 }
 

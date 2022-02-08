@@ -5,8 +5,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: black;
-  background-color: #f1f1f1;
+  color: var(--complementary-color);
+  background-color: var(--nav-bg-color);
   list-style: none;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .nav-logo {
-  color: #333;
+  color: var(--nav-logo-color);
   text-decoration: none;
 }
 
@@ -32,7 +32,7 @@
   transition: all 0.3s ease;
   list-style: none;
   font-weight: 800;
-  color: rgb(133, 130, 130);
+  color: var(--link-color);
   text-align: center;
   display: block;
   padding: 15px 16px;
@@ -51,15 +51,15 @@
   margin: 0;
   padding: 0;
   width: 250px;
-  background-color: #f1f1f1;
+  background-color: var(--nav-bg-color);
 }
 
 .active {
-  background-color: #717a77;
-  color: white;
+  background-color: var(--active-bg-color);
+  color: var(--primary-color);
 }
 
 .link:hover:not(.active) {
-  background-color: #555;
-  color: white;
+  background-color: var(--active-link-color);
+  color: var(--primary-color);
 }
