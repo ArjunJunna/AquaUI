@@ -8,8 +8,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
+
     <link rel="stylesheet" href="../../style.css" />
-    <title>Input</title>
+    <title>Rating</title>
   </head>
   <body>
     <div class="container">
@@ -24,60 +25,43 @@
       </nav>
 
       <main>
-        <h1>Input</h1>
+        <h1>Rating</h1>
         <h4>
-          Inputs can be used for user interaction with the website. Will take
-          information from the user, and then save the data to the server.
+          These components can be used to get reviews from the users. They are
+          found widely in web applications.
         </h4>
-        <h3>Below is an example for input with validation.</h3>
-        <section class="component">
-          <div class="input-container">
-            <div class="input">
-              <input type="text" class="input-error input-style" />
-              <div class="error input-label">Label</div>
-            </div>
-
-            <div class="input">
-              <input type="text" class="input-warning input-style" />
-              <div class="warning input-label">Label</div>
-            </div>
-
-            <div class="input">
-              <input type="text" class="input-success input-style" />
-              <div class="success input-label">Label</div>
-            </div>
+        <h3>Below is an example for rating bar.</h3>
+        <section class="rating-component">
+          <div class="rating-wrapper">
+            <input type="radio" id="star-1" name="rating" />
+            <label for="star-1"></label>
+            <input type="radio" id="star-2" name="rating" />
+            <label for="star-2"></label>
+            <input type="radio" id="star-3" name="rating" />
+            <label for="star-3"></label>
+            <input type="radio" id="star-4" name="rating" />
+            <label for="star-4"></label>
+            <input type="radio" id="star-5" name="rating" />
+            <label for="star-5"></label>
           </div>
         </section>
         <div class="code-snippet">
           <pre class="code-prism">
-    <code class='language-html'>
-           &lt;div class=&quot;input&quot;&gt;
-              &lt;input type=&quot;text&quot; class=&quot;input-error input-style&quot; /&gt;
-              &lt;div class=&quot;error input-label&quot;&gt;Label&lt;/div&gt;
-            &lt;/div&gt;
-
-            &lt;div class=&quot;input&quot;&gt;
-              &lt;input type=&quot;text&quot; class=&quot;input-warning input-style&quot; /&gt;
-              &lt;div class=&quot;warning input-label&quot;&gt;Label&lt;/div&gt;
-            &lt;/div&gt;
-
-            &lt;div class=&quot;input&quot;&gt;
-              &lt;input type=&quot;text&quot; class=&quot;input-success input-style&quot; /&gt;
-              &lt;div class=&quot;success input-label&quot;&gt;Label&lt;/div&gt;
-            &lt;/div&gt;
-    </code>
-   </pre>
-        </div>
-        <h3>Below is an example for textbox.</h3>
-        <section class="component">
-          <textarea class="input-textarea" type="text" required></textarea>
-        </section>
-        <div class="code-snippet">
-          <pre class="code-prism">
-    <code class='language-html'>
-           &lt;textarea class=&quot;textarea&quot; type=&quot;text&quot; required&gt;&lt;/textarea&gt;
-    </code>
-   </pre>
+            <code class='language-html'>
+          &lt;div class=&quot;rating-wrapper&quot;&gt;
+            &lt;input type=&quot;radio&quot; id=&quot;star-1&quot; name=&quot;rating&quot; /&gt;
+            &lt;label for=&quot;star-1&quot;&gt;&lt;/label&gt;
+            &lt;input type=&quot;radio&quot; id=&quot;star-2&quot; name=&quot;rating&quot; /&gt;
+            &lt;label for=&quot;star-2&quot;&gt;&lt;/label&gt;
+            &lt;input type=&quot;radio&quot; id=&quot;star-3&quot; name=&quot;rating&quot; /&gt;
+            &lt;label for=&quot;star-3&quot;&gt;&lt;/label&gt;
+            &lt;input type=&quot;radio&quot; id=&quot;star-4&quot; name=&quot;rating&quot; /&gt;
+            &lt;label for=&quot;star-4&quot;&gt;&lt;/label&gt;
+            &lt;input type=&quot;radio&quot; id=&quot;star-5&quot; name=&quot;rating&quot; /&gt;
+            &lt;label for=&quot;star-5&quot;&gt;&lt;/label&gt;
+          &lt;/div&gt;
+            </code>
+          </pre>
         </div>
       </main>
       <div class="sidebar">
@@ -117,7 +101,7 @@
               <a href="/components/images/images.html"> Image </a>
             </li>
             <li>
-              <a href="/components/input/input.html"> Image </a>
+              <a href="/components/input/input.html"> Input </a>
             </li>
             <li>
               <a href="/components/navigation/navigation.html"> Navigation </a>
@@ -130,10 +114,11 @@
       </div>
 
       <footer class="footer">
-        <li><a href="/components/images/images.html">< Prev Page</a></li>
-        <li><a href="/components/navigation/navigation.html">Next Page ></a></li>
+        <li><a href="/components/navigation/navigation.html">< Prev Page</a></li>
+        <li><a href="/components/rating/rating.html">Next Page ></a></li>
       </footer>
     </div>
+
     <script src="/css/prism/prism.js"></script>
   </body>
 </html>
