@@ -34,4 +34,7 @@
   --active-link-color:rgb(85, 85, 85);
   --active-bg-color:rgb(113, 122, 119);
   --rating-star-color:rgb(255, 255, 0);
+  --modal-bg-color:rgb(241, 236, 236);
+  --modal-card-shadow:rgba(0, 0, 0, 0.2);
+  --modal-body-color:rgba(0, 0, 0, 0.9);
 }
