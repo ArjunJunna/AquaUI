@@ -10,7 +10,7 @@
     />
 
     <link rel="stylesheet" href="../../style.css" />
-    <title>Introduction</title>
+    <title>Slider</title>
   </head>
   <body>
     <div class="container">
@@ -25,24 +25,35 @@
       </nav>
 
       <main>
-        <h1 class="main-heading">Aqua UI</h1>
+        <h1 class="main-heading">Slider</h1>
         <h4 class="heading-info">
-          Aqua UI is a CSS component library. It is integrated with pre-defined
-          styled classes. It is user-friendly and customizable. You can quickly
-          build your project with ease because Aqua UI has already taken care of
-          your designs.
+          Sliders are used in ecommerce websites, music apps and in many places in websites for keeping a range.
         </h4>
-        <h3 class="sub-heading">Installation Guide</h3>
-        <br />
-        <h4 class="heading-info">
-          Copy the link given below and paste it in the head tag of your html,
-          above all other style sheets.
-        </h4>
-
-        <div class="code-snippet" id="code-display">
+        <h3 class="sub-heading">Below is an example for slider.</h3>
+        <section class="component">
+            <div class="slider-container">
+                <input
+                type="range"
+                min="100"
+                max="5000"
+                value="50"
+                class="slider"
+              />
+            </div>
+              
+        </section>
+        <div class="code-snippet">
           <pre class="code-prism">
             <code class='language-html'>
-        &lt;link rel=&quot;stylesheet&quot; href=&quot;https://its-aqua-ui.netlify.app/components/components.css&quot;&gt;
+            &lt;div class=&quot;slider-container&quot;&gt;
+                &lt;input
+                type=&quot;range&quot;
+                min=&quot;100&quot;
+                max=&quot;5000&quot;
+                value=&quot;50&quot;
+                class=&quot;slider&quot;
+                /&gt;
+            &lt;/div&gt;
             </code>
           </pre>
         </div>
@@ -55,7 +66,7 @@
           </div>
           <ul class="list-subtopic">
             <li>
-              <a href="#"> Introduction </a>
+              <a href="/get-started/introduction.html"> Introduction </a>
             </li>
           </ul>
         </div>
@@ -115,12 +126,13 @@
       </div>
 
       <footer class="footer">
-        <li><a href="/index.html">< Prev Page</a></li>
-        <li><a href="/components/avatar/avatar.html">Next Page ></a></li>
+        <li>
+          <a href="/components/grid/grid.html">< Prev Page</a>
+        </li>
+        <li><a href="/components/slider/slider.html">Next Page ></a></li>
       </footer>
     </div>
 
     <script src="/css/prism/prism.js"></script>
-    <script src="modal.js"></script>
   </body>
 </html>

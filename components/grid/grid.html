@@ -10,7 +10,7 @@
     />
 
     <link rel="stylesheet" href="../../style.css" />
-    <title>Introduction</title>
+    <title>Grid</title>
   </head>
   <body>
     <div class="container">
@@ -25,24 +25,44 @@
       </nav>
 
       <main>
-        <h1 class="main-heading">Aqua UI</h1>
+        <h1 class="main-heading">Grid</h1>
         <h4 class="heading-info">
-          Aqua UI is a CSS component library. It is integrated with pre-defined
-          styled classes. It is user-friendly and customizable. You can quickly
-          build your project with ease because Aqua UI has already taken care of
-          your designs.
+          Grid is used to build 2 dimensional layouts. You can have control over
+          both column and grid at a same time.
         </h4>
-        <h3 class="sub-heading">Installation Guide</h3>
-        <br />
-        <h4 class="heading-info">
-          Copy the link given below and paste it in the head tag of your html,
-          above all other style sheets.
-        </h4>
-
-        <div class="code-snippet" id="code-display">
+        <h3 class="sub-heading">Below is an example for 2 items in a grid.</h3>
+        <section class="component">
+          <div class="grid-layout grid-2column">
+            <div class="box box-1">Item-1</div>
+            <div class="box box-2">Item-2</div>
+          </div>
+        </section>
+        <div class="code-snippet">
           <pre class="code-prism">
             <code class='language-html'>
-        &lt;link rel=&quot;stylesheet&quot; href=&quot;https://its-aqua-ui.netlify.app/components/components.css&quot;&gt;
+          &lt;div class=&quot;grid-layout grid-2column&quot;&gt;
+            &lt;div class=&quot;box box-1&quot;&gt;Item-1&lt;/div&gt;
+            &lt;div class=&quot;box box-2&quot;&gt;Item-2&lt;/div&gt;
+          &lt;/div&gt;
+            </code>
+          </pre>
+        </div>
+        <h3 class="sub-heading">Below is an example for 3 items in a grid.</h3>
+        <section class="component">
+          <div class="grid-layout grid-3column">
+            <div class="box box-1">Item-1</div>
+            <div class="box box-2">Item-2</div>
+            <div class="box box-3">Item-3</div>
+          </div>
+        </section>
+        <div class="code-snippet">
+          <pre class="code-prism">
+            <code class='language-html'>
+          &lt;div class=&quot;grid-layout grid-3column&quot;&gt;
+            &lt;div class=&quot;box box-1&quot;&gt;Item-1&lt;/div&gt;
+            &lt;div class=&quot;box box-2&quot;&gt;Item-2&lt;/div&gt;
+            &lt;div class=&quot;box box-3&quot;&gt;Item-3&lt;/div&gt;
+          &lt;/div&gt;
             </code>
           </pre>
         </div>
@@ -55,7 +75,7 @@
           </div>
           <ul class="list-subtopic">
             <li>
-              <a href="#"> Introduction </a>
+              <a href="/get-started/introduction.html"> Introduction </a>
             </li>
           </ul>
         </div>
@@ -115,12 +135,13 @@
       </div>
 
       <footer class="footer">
-        <li><a href="/index.html">< Prev Page</a></li>
-        <li><a href="/components/avatar/avatar.html">Next Page ></a></li>
+        <li>
+          <a href="/components/toast/toast.html">< Prev Page</a>
+        </li>
+        <li><a href="/components/slider/slider.html">Next Page ></a></li>
       </footer>
     </div>
 
     <script src="/css/prism/prism.js"></script>
-    <script src="modal.js"></script>
   </body>
 </html>
