@@ -14,7 +14,7 @@ nav {
 }
 
 .left-nav a {
-  color: #333;
+  color: var(--black-color);
   text-decoration: none;
   font-family: 'Kaushan Script', cursive;
 }
@@ -31,7 +31,7 @@ nav {
 
 .right-nav a {
   font-weight: 800;
-  color: rgb(133, 130, 130);
+  color: var(--secondary-color);
   text-decoration: none;
   cursor: pointer;
   font-size: 1.4rem;
@@ -39,5 +39,5 @@ nav {
 }
 
 .right-nav a:hover {
-  color: black;
+  color: var(--black-color);
 }
