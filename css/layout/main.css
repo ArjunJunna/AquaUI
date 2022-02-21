@@ -2,18 +2,19 @@ main {
   padding: 2rem;
   font-size: 1.5rem;
 }
-main h1{
+
+main .main-heading{
   margin-bottom: 2rem;
 }
-main h4 {
+
+main .sub-heading{
+  margin:2rem 0 0 4rem;
+}
+
+main .heading-info{
   margin-bottom: 3rem;
 }
-main h3 {
-  margin-left: 4rem;
-}
-main h5{
-  margin: 1rem 0 0 4rem;
-}
-main iframe{
-  margin: 0 0 1rem 4rem;
+
+main .sub-heading-info{
+   margin: 1rem 0 0 4rem;
 }

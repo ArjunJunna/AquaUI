@@ -10,7 +10,7 @@
     />
 
     <link rel="stylesheet" href="../../style.css" />
-    <title>Navigation</title>
+    <title>List</title>
   </head>
   <body>
     <div class="container">
@@ -25,62 +25,77 @@
       </nav>
 
       <main>
-        <h1 class="main-heading">Navigation</h1>
+        <h1 class="main-heading">List</h1>
         <h4 class="heading-info">
-          Navigation bar is used to navigate through the web apps or websites.
-          They can be in horizontal or vertical shape.
+          Lists can be both spaced and stacked in nature.
         </h4>
-        <h3 class="sub-heading">Below is an example for horizontal navigation bar.</h3>
+        <h3 class="sub-heading">
+          Below is an example for spaced stack that are normal lists.
+        </h3>
         <section class="component">
-          <nav class="navigation-hz">
-            <div class="left-nav">
-              <a href="#" class="nav-logo">LOGO</a>
-            </div>
-            <div class="right-nav">
-              <li><a class="link" href="#">HOME</a></li>
-              <li><a class="link" href="#">CONTACT</a></li>
-              <li><a class="link" href="#">ABOUT</a></li>
-            </div>
-          </nav>
+          <ul class="list">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+          <ul class="list list-inline">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
         </section>
         <div class="code-snippet">
           <pre class="code-prism">
             <code class='language-html'>
-          &lt;nav class=&quot;navigation-hz&quot;&gt;
-            &lt;div class=&quot;left-nav&quot;&gt;
-              &lt;a href=&quot;#&quot; class=&quot;nav-logo&quot;&gt;LOGO&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;right-nav&quot;&gt;
-              &lt;li&gt;&lt;a class=&quot;link&quot; href=&quot;#&quot;&gt;HOME&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a class=&quot;link&quot; href=&quot;#&quot;&gt;CONTACT&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a class=&quot;link&quot; href=&quot;#&quot;&gt;ABOUT&lt;/a&gt;&lt;/li&gt;
-            &lt;/div&gt;
-          &lt;/nav&gt;
+             &lt;ul class=&quot;list&quot;&gt;
+              &lt;li&gt;Item 1&lt;/li&gt;
+              &lt;li&gt;Item 2&lt;/li&gt;
+              &lt;li&gt;Item 3&lt;/li&gt;
+             &lt;/ul&gt;
+             &lt;ul class=&quot;list list-inline&quot;&gt;
+              &lt;li&gt;Item 1&lt;/li&gt;
+              &lt;li&gt;Item 2&lt;/li&gt;
+              &lt;li&gt;Item 3&lt;/li&gt;
+             &lt;/ul&gt;
             </code>
           </pre>
         </div>
-        <h3 class="sub-heading">Below is an example for vertical navigation bar.</h3>
+        <h3 class="sub-heading">
+          Below is an example for stacked lists used in notification pages.
+        </h3>
         <section class="component">
-          <nav class="navigation nav-vr">
-            <ul class="nav-ul">
-              <li><a class="active link" href="#">LOGO</a></li>
-              <li><a href="#" class="link">HOME</a></li>
-              <li><a href="#" class="link">CONTACT</a></li>
-              <li><a href="#" class="link">ABOUT</a></li>
-            </ul>
-          </nav>
+          <ul class="list">
+            <li>
+              <p class="text-lg">user-1</p>
+              <span>Just liked your tweet now at 9:00pm</span>
+            </li>
+            <li>
+              <p class="text-lg">user-2</p>
+              <span>Just liked your tweet now at 9:01pm</span>
+            </li>
+            <li>
+              <p class="text-lg">user-3</p>
+              <span>Just liked your tweet now at 9:02pm</span>
+            </li>
+          </ul>
         </section>
         <div class="code-snippet">
           <pre class="code-prism">
             <code class='language-html'>
-          &lt;nav class=&quot;navigation nav-vr&quot;&gt;
-            &lt;ul class=&quot;nav-ul&quot;&gt;
-              &lt;li&gt;&lt;a class=&quot;active link&quot; href=&quot;#&quot;&gt;LOGO&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;link&quot;&gt;HOME&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;link&quot;&gt;CONTACT&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;link&quot;&gt;ABOUT&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/nav&gt;
+          &lt;ul class=&quot;list&quot;&gt;
+            &lt;li&gt;
+              &lt;p class=&quot;text-lg&quot;&gt;user-1&lt;/p&gt;
+              &lt;span&gt;Just liked your tweet now at 9:00pm&lt;/span&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;p class=&quot;text-lg&quot;&gt;user-2&lt;/p&gt;
+              &lt;span&gt;Just liked your tweet now at 9:01pm&lt;/span&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;p class=&quot;text-lg&quot;&gt;user-3&lt;/p&gt;
+              &lt;span&gt;Just liked your tweet now at 9:02pm&lt;/span&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
             </code>
           </pre>
         </div>
@@ -147,8 +162,10 @@
       </div>
 
       <footer class="footer">
-        <li><a href="/components/input/input.html">< Prev Page</a></li>
-        <li><a href="/components/rating/rating.html">Next Page ></a></li>
+        <li>
+          <a href="/components/typography/typography.html">< Prev Page</a>
+        </li>
+        <li><a href="/components/toast/toast.html">Next Page ></a></li>
       </footer>
     </div>
 

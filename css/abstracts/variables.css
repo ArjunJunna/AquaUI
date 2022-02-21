@@ -37,4 +37,7 @@
   --modal-bg-color:rgb(241, 236, 236);
   --modal-card-shadow:rgba(0, 0, 0, 0.2);
   --modal-body-color:rgba(0, 0, 0, 0.9);
+  --red-color: rgb(255, 0, 0);
+  --gray-color:rgb(128,128,128);
+  --green-color:rgb(0,128,0);
 }
