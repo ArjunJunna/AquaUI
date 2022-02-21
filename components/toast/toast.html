@@ -10,7 +10,7 @@
     />
 
     <link rel="stylesheet" href="../../style.css" />
-    <title>Navigation</title>
+    <title>Toast</title>
   </head>
   <body>
     <div class="container">
@@ -25,65 +25,26 @@
       </nav>
 
       <main>
-        <h1 class="main-heading">Navigation</h1>
+        <h1 class="main-heading">Toast</h1>
         <h4 class="heading-info">
-          Navigation bar is used to navigate through the web apps or websites.
-          They can be in horizontal or vertical shape.
+          Toasts are usually used to put out a notification for the user. It can be even called as a notify bar and snack bar.
         </h4>
-        <h3 class="sub-heading">Below is an example for horizontal navigation bar.</h3>
+        <h3 class="sub-heading">
+          Below is an example for toast.
+        </h3>
         <section class="component">
-          <nav class="navigation-hz">
-            <div class="left-nav">
-              <a href="#" class="nav-logo">LOGO</a>
-            </div>
-            <div class="right-nav">
-              <li><a class="link" href="#">HOME</a></li>
-              <li><a class="link" href="#">CONTACT</a></li>
-              <li><a class="link" href="#">ABOUT</a></li>
-            </div>
-          </nav>
+          <div class="toast">
+              <button class='btn-toast'>A toast message  <i class="fas fa-times icon-dismiss"></i></button>
+          </div>
         </section>
         <div class="code-snippet">
           <pre class="code-prism">
             <code class='language-html'>
-          &lt;nav class=&quot;navigation-hz&quot;&gt;
-            &lt;div class=&quot;left-nav&quot;&gt;
-              &lt;a href=&quot;#&quot; class=&quot;nav-logo&quot;&gt;LOGO&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;right-nav&quot;&gt;
-              &lt;li&gt;&lt;a class=&quot;link&quot; href=&quot;#&quot;&gt;HOME&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a class=&quot;link&quot; href=&quot;#&quot;&gt;CONTACT&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a class=&quot;link&quot; href=&quot;#&quot;&gt;ABOUT&lt;/a&gt;&lt;/li&gt;
-            &lt;/div&gt;
-          &lt;/nav&gt;
+        &lt;button class=&apos;btn-toast&apos;&gt;A toast message  &lt;i class=&quot;fas fa-times icon-dismiss&quot;&gt;&lt;/i&gt;&lt;/button&gt;
             </code>
           </pre>
         </div>
-        <h3 class="sub-heading">Below is an example for vertical navigation bar.</h3>
-        <section class="component">
-          <nav class="navigation nav-vr">
-            <ul class="nav-ul">
-              <li><a class="active link" href="#">LOGO</a></li>
-              <li><a href="#" class="link">HOME</a></li>
-              <li><a href="#" class="link">CONTACT</a></li>
-              <li><a href="#" class="link">ABOUT</a></li>
-            </ul>
-          </nav>
-        </section>
-        <div class="code-snippet">
-          <pre class="code-prism">
-            <code class='language-html'>
-          &lt;nav class=&quot;navigation nav-vr&quot;&gt;
-            &lt;ul class=&quot;nav-ul&quot;&gt;
-              &lt;li&gt;&lt;a class=&quot;active link&quot; href=&quot;#&quot;&gt;LOGO&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;link&quot;&gt;HOME&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;link&quot;&gt;CONTACT&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;link&quot;&gt;ABOUT&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/nav&gt;
-            </code>
-          </pre>
-        </div>
+        
       </main>
       <div class="sidebar">
         <!-- Get Started List Start -->
@@ -147,8 +108,10 @@
       </div>
 
       <footer class="footer">
-        <li><a href="/components/input/input.html">< Prev Page</a></li>
-        <li><a href="/components/rating/rating.html">Next Page ></a></li>
+        <li>
+          <a href="/components/list/list.html">< Prev Page</a>
+        </li>
+        <li><a href="/components/toast/toast.html">Next Page ></a></li>
       </footer>
     </div>
 
